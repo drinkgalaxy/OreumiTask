@@ -1,3 +1,0 @@
-### `Item` 이라는 부모 클래스를 상속 받아서 `Album`, `Movie`, `Book`클래스를 생성해보세요. 추가로 `ItemManager` 라는 클래스를 생성하여 album, movie, book 각 객체의 필드를 출력해봅시다.
-
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8f11927-b70c-4524-9227-a3efac08e7aa/bd16e7f1-1ece-4956-a665-3460b43c6d4a/Untitled.png)
