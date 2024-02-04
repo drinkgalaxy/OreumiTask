@@ -1,0 +1,28 @@
+package chapter06;
+
+public class Animal {
+    String name;
+    int sleeptime;
+    void setName(String name) {
+        this.name = name;
+    }
+    void getName(){
+        System.out.println("이 동물의 이름은 "+this.name+"입니다.");
+    }
+
+    void sleep(int x) {
+        System.out.println(this.name+ "는 평균적으로 하루에 "+x+"시간을 잡니다.");
+    }
+
+    public static void main(String[] args) {
+        Animal dog = new Animal();
+        dog.setName("댕댕이");
+        dog.getName();
+        dog.sleep(5);
+
+        Animal cat = new Animal();
+        cat.setName("야옹이");
+        cat.getName();
+        cat.sleep(8);
+    }
+}
