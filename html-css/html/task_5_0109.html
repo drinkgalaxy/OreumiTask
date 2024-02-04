@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .container{
+            width: 350px;
+            height: 140px;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+
+            background-color: white;
+            border: 1px solid #DBDBDB;
+            border-radius: 5px;
+        }
+        .modal{
+            width: 200px;
+            height: 200px;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            /*margin-left: -100px;*/
+            /*margin-top: -100px;*/
+        }
+
+        .top{
+            margin-left: 20px;
+
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 15.02px;
+        }
+
+        .middle{
+            display: flex;
+            justify-content: center;
+        }
+
+        .bottom{
+            display: flex;
+            margin-left: 20px;
+            font-size: 11px;
+        }
+
+        .bottom_right{
+
+            /*display: flex;*/
+            /*justify-content: space-between;*/
+            margin-left: 120px;
+
+        }
+
+        .login-button{
+            background-size: 318px;
+            width: 318px;
+            height: 40px;
+            border-radius: 4px;
+            background-color: #711BFF;
+            color: white;
+        }
+
+
+    </style>
+</head>
+<body>
+<div class="modal">
+<div class="container">
+    <div class="top">
+        <p>더 편리해진 위니브에 오신 것을 환영합니다.</p>
+    </div>
+    <div class="middle">
+        <button class='login-button'><img src="Group.png">로그인</button>
+    </div>
+    <div class="bottom">
+        <div class="bottom_left">
+            <img src="icon-lock.png" alt="아이디|비밀번호 찾기"> 아이디 | 비밀번호 찾기
+        </div>
+        <div class="bottom_right">
+            <img src="icon-user.png" alt="회원가입"> 회원가입
+        </div>
+    </div>
+</div>
+</div>
+</body>
+</html>
