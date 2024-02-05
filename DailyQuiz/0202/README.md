@@ -4,7 +4,7 @@
 
 ### 클래스 및 인터페이스 구조
 ![image](https://github.com/drinkgalaxy/Ormi-Task/assets/138424719/00e6b38f-3610-40c6-bd85-c2212caf7a01)
-
+| --- | --- |
 | --- | --- |
 | Product | 상품 (부모 클래스) |
 | Grocery
