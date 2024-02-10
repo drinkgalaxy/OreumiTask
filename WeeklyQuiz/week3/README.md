@@ -116,4 +116,4 @@
 
 아래의 클래스 다이어그램처럼 설계하는 것을 권장합니다. 
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8f11927-b70c-4524-9227-a3efac08e7aa/ce5337c8-f912-4973-831a-3a8ff6c2f76c/Untitled.png)
+![image](https://github.com/drinkgalaxy/Ormi-Task/assets/138424719/e09dc86e-bc30-454c-82a9-d57656e99d10)
