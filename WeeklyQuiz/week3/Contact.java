@@ -16,5 +16,10 @@ public class Contact {
     public void setPhoneNumber(String phoneNumber) {
         this.phoneNumber = phoneNumber;
     }
+
+    @Override
+    public String toString() {
+        return String.format("이름: %s, 전화번호: %s", name, phoneNumber);
+    }
 }
 
