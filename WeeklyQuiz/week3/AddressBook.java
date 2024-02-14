@@ -6,6 +6,9 @@ import java.util.Scanner;
 
 public class AddressBook {
     public List<Contact> contacts = new ArrayList<>();
+    public AddressBook() { // 초기화
+        this.contacts = new ArrayList<>();
+    }
     public void displayContacts() {
         System.out.println("----------3번 메뉴 : 연락처 출력----------");
         if (contacts.isEmpty()) {
@@ -13,7 +16,7 @@ public class AddressBook {
             System.out.println("..... 메뉴 선택 화면으로 돌아갑니다 .....\n");
         }
         for (Contact contact : contacts) {
-            System.out.println(contact.getName()+", "+contact.getPhoneNumber());
+            System.out.println(contact);
         }
         System.out.println("-----------------------------------------------");
     }
@@ -25,7 +28,7 @@ public class AddressBook {
 
         for (Contact contact : contacts) {
             if (contact.getName().equals(findname)) {
-                System.out.println(contact.getName()+", "+contact.getPhoneNumber());
+                System.out.println(contact);
                 return;
             }
         }
