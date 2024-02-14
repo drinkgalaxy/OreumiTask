@@ -13,4 +13,9 @@ public class PersonalContact extends Contact {
     public void setRelationship(String relationship) {
         this.relationship = relationship;
     }
+
+    @Override
+    public String toString() {
+        return String.format("%s, 관계: %s", super.toString(), relationship);
+    }
 }
